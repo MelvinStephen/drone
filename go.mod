@@ -1,8 +1,9 @@
-module github.com/drone/drone
+module github.com/MelvinStephen/drone
 
 require (
 	docker.io/go-docker v1.0.0
 	github.com/99designs/httpsignatures-go v0.0.0-20170731043157-88528bf4ca7e
+	github.com/MelvinStephen/drone-runtime v1.0.8
 	github.com/Microsoft/go-winio v0.4.11
 	github.com/asaskevich/govalidator v0.0.0-20180315120708-ccb8e960c48f
 	github.com/aws/aws-sdk-go v1.15.57
@@ -17,7 +18,6 @@ require (
 	github.com/docker/go-connections v0.3.0
 	github.com/docker/go-units v0.3.3
 	github.com/drone/drone-go v1.0.5-0.20190427184118-618e4496482e
-	github.com/drone/drone-runtime v1.0.6
 	github.com/drone/drone-ui v0.0.0-20190530175131-92ba3df1e0a9
 	github.com/drone/drone-yaml v1.1.4-0.20190614011118-4889634ea9ae
 	github.com/drone/envsubst v1.0.1
